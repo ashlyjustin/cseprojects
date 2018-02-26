@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<title>Sign Up</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		 <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
+
+		<style>
+			body,html
+			{
+				background-color: #424242  ;
+				margin: 0px;
+			}
+			button
+			{	width: 35%;
+				background-color: #0288d1;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				text-align: center;
+				display: inline-block;
+				color: white;
+				border:0px;
+				padding: 6px 6px 6px 6px;
+				
+			}
+			.signup
+			{
+				width: 100%;height:100%; position: relative; color: white; background-color: #546e7a ; padding: 5px 5px 10px 5px; margin: auto; 
+			}
+			.fa-linkedin{
+				color:white;background-color: blue;padding-left: 3px;padding-right: 3px;padding-top: 3px; padding-top: 3px;border-radius: 4px; font-size: 20px; 
+			}
+			button:hover 
+			{
+				background-color: lightblue;
+				color: blue;
+			}
+			input
+			{	min-height:35px;
+				width: 35%;
+				padding-left: 4px;
+				padding-top: 3px;
+				padding-bottom: 3px;
+			}
+			h1,h2,
+			{
+				text-align: center; 
+				color:white ;
+				size:22px; 
+				font-family: 'Roboto';
+			}
+			a{  
+				color: white;
+			}
+
+			@media only screen and (max-width: 600px) 
+			{
+			    /* For mobile phones width */
+			    
+			    input
+			    {
+			    	width:100%;
+			    }
+			    button
+			    {
+			    	width: 90%;
+			    }
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<div style="padding-top: 8px">
+			<h2 align="center" style="color: white;">Linked
+		    <i class="fa fa-linkedin " ></i></h2>
+		</div>
+	    
+	    <div align="center" class="signup"  >
+	    	<p align="center" >Join to view full profiles for free</p>
+	    	<input type="text" name="fname" placeholder="First Name"><br>
+			<input type="text" name="lname" placeholder="Last Name"><br>
+			<input type="text" name="email" placeholder="Email"><br>
+			<input type="password" name="password" placeholder="Password (6 or more characters)"><br><br>
+			<p>By clicking Join now ,you agree to the linkedin <a href="#">User Agreement</a>,<a href="#"> Privacy Policy</a> , and <a href="#">Cookie Policy</a></p>
+			<button><b>Join now</b></button><br><br>
+	    </div>
+	</body>
+	</html>
