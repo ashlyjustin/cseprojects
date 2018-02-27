@@ -4,7 +4,7 @@
 				margin: 0px;
 			}
 			button
-			{	width: 40%;
+			{	width: 90%;
 				background-color: #0288d1;
 				padding-top: 2px;
 				padding-bottom: 2px;
@@ -35,12 +35,13 @@
 			}
 			input
 			{	min-height:35px;
-				width: 60%;
+				width: 90%;
 				padding-left: 4px;
 				padding-top: 3px;
 				padding-bottom: 3px;
+				border-radius: 0px;
 			}
-			h1,h2,
+			h2,
 			{
 				text-align: center; 
 				color:white ;
@@ -52,8 +53,8 @@
 			}
 			.container
 			{
-				align-content: center;
-				justify-content: center;
+				text-align:  center;
+				
 			}
 
 			@media only screen and (max-width: 600px) 
