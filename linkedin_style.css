@@ -1,0 +1,71 @@
+			body,html
+			{
+				background-color: #424242  ;
+				margin: 0px;
+			}
+			button
+			{	width: 40%;
+				background-color: #0288d1;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				text-align: center;
+				display: inline-block;
+				color: white;
+				border:0px;
+				padding: 6px 6px 6px 6px;
+				
+			}
+			.header
+			{
+				padding-top: 8px;
+				text-align: center;
+				color: white;
+			}
+			.signup
+			{
+					width: 35%;height:auto; position: relative; color: white; background-color: #546e7a ; padding: 5px 5px 10px 5px; margin: auto; border-radius: 20px;
+			}
+			.fa-linkedin{
+				color:white;background-color: blue;padding-left: 3px;padding-right: 3px;padding-top: 3px; padding-top: 3px;border-radius: 4px; font-size: 20px; 
+			}
+			button:hover 
+			{
+				background-color: lightblue;
+				color: blue;
+			}
+			input
+			{	min-height:35px;
+				width: 60%;
+				padding-left: 4px;
+				padding-top: 3px;
+				padding-bottom: 3px;
+			}
+			h1,h2,
+			{
+				text-align: center; 
+				color:white ;
+				size:22px; 
+				font-family: 'Roboto';
+			}
+			a{  
+				color: white;
+			}
+			.container
+			{
+				align-content: center;
+				justify-content: center;
+			}
+
+			@media only screen and (max-width: 600px) 
+			{
+			    /* For mobile phones width */
+			    
+			    input
+			    {
+			    	width:100%;
+			    }
+			    button
+			    {
+			    	width: 90%;
+			    }
+			}
