@@ -4,7 +4,7 @@
 				margin: 0px;
 			}
 			button
-			{	width: 90%;
+			{	width: 75%;
 				background-color: #0288d1;
 				padding-top: 2px;
 				padding-bottom: 2px;
@@ -23,7 +23,7 @@
 			}
 			.signup
 			{
-					width: 35%;height:auto; position: relative; color: white; background-color: #546e7a ; padding: 5px 5px 10px 5px; margin: auto; border-radius: 20px;
+					width: 30%;height:auto; position: relative; color: white; background-color: #546e7a ; padding: 5px 5px 10px 5px; margin: auto; border-radius: 20px;
 			}
 			.fa-linkedin{
 				color:white;background-color: blue;padding-left: 3px;padding-right: 3px;padding-top: 3px; padding-top: 3px;border-radius: 4px; font-size: 20px; 
@@ -35,7 +35,7 @@
 			}
 			input
 			{	min-height:35px;
-				width: 90%;
+				width: 75%;
 				padding-left: 4px;
 				padding-top: 3px;
 				padding-bottom: 3px;
