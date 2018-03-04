@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Table Search</title>
+</head>
+<body>
+	<div class="container" align="center">
+		<h1 >Student Info </h1>
+		
+		<button type="button" class ="btn-success" id="btn">Retrieve Data</button>
+		<br>
+		<input type="text" class="search" id="myInput" onkeyup="searchFunction()" placeholder="type here to search"><br><br>
+		<table class="table table-bordered table-striped" align="center" id="info">
+		<th>Name</th><th>Age</th><th>Branch</th><th>City</th>
+		</table><br>
+		<center><h4 >Total no. of records : </h4><h3 id="count"></h3></center>
+	</div>
+
+	<script type="text/javascript" src="ajaxTable.js"></script>
+
+</body>
+</html>

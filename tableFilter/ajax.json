@@ -1,0 +1,45 @@
+[
+	{
+	"name": "Ashly",
+	"age": "18",
+	"branch": "cs",
+	"city":"jabalpur"
+	},
+	{
+	"name": "aman",
+	"age": "19",
+	"branch": "it",
+	"city":"raipur"
+	},
+	{
+	"name": "rahul",
+	"age": "16",
+	"branch": "etc",
+	"city":"bilaspur"
+	},
+	{
+	"name": "piyush",
+	"age": "18",
+	"branch": "cs",
+	"city":"somepur"
+	},
+	{
+	"name": "harsh",
+	"age": "18",
+	"branch": "it",
+	"city":"xyzpur"
+	},
+	{
+	"name": "shyam",
+	"age": "20",
+	"branch": "etc",
+	"city":"abcpur"
+	},
+	{
+	"name": "mohit",
+	"age": "21",
+	"branch": "cs",
+	"city":"toomanypur"
+	}
+
+]
